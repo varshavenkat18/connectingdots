@@ -1,0 +1,55 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #4a00e0;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+canvas {
+    background-color: #f0f0f0;
+    border: 2px solid #4a00e0;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#resetBtn {
+    background-color: #8e2de2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#resetBtn:hover {
+    background-color: #4a00e0;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
